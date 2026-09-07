@@ -1,1 +1,5 @@
-
+Installation of docker
+sudo yum install docker -y
+sudo usermod -aG docke ec2-user
+sudo systemctl start docker
+sudo systemctl status docker
